@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle</title>
+    <style>
+        #center{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 25%; 
+            margin-left: -150px;
+            margin-top: -150px;
+        }
+        .Triangle{
+            position: absolute;
+            border: 200px solid transparent;
+            border-bottom: 200px solid #00ff37;
+            z-index: 3;
+        }
+        .sub_triangle{
+            position: absolute;
+            margin-top:100px ;
+            border: 200px solid transparent;
+            border-bottom: 200px solid #f00553;
+            z-index: 2;
+        }
+        .sub_triangle1{
+            position: absolute;
+            margin-top:200px ;
+            border: 200px solid transparent;
+            border-bottom: 200px solid #4c00ff;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id='center'>
+        
+        <div class='Triangle'>
+        
+        </div>
+        <div class="sub_triangle">
+
+        </div>
+        <div class="sub_triangle1">
+
+        </div>
+    </div>    
+</body>
+</html>
